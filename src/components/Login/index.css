@@ -1,0 +1,99 @@
+.login-container {
+  background-color: #152850;
+  height: 100vh;
+  background-size: cover;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-image {
+  height: 400px;
+  width: 400px;
+}
+
+.login-card-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #c3cad9;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.form-container {
+  background-color: #ffffff;
+  width: min-content;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-heading {
+  color: #152850;
+  font-family: 'Roboto';
+}
+
+.user-id-label {
+  display: flex;
+  font-weight: 500;
+  color: #5a7184;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+}
+.user-id-input-box {
+  height: 35px;
+  width: 300px;
+  border: 1px solid #5a7184;
+  font-family: 'Roboto';
+  padding-left: 8px;
+  border-radius: 5px;
+  outline: none;
+  color: #5a7184;
+}
+
+.user-pin-label {
+  margin-top: 15px;
+  display: flex;
+  font-weight: 500;
+  color: #5a7184;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+}
+
+.user-pin-input {
+  height: 35px;
+  width: 300px;
+  border: 1px solid #5a7184;
+  font-family: 'Roboto';
+  padding-left: 8px;
+  border-radius: 5px;
+  outline: none;
+  color: #5a7184;
+}
+
+.submit-button {
+  background-color: #0967d2;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  height: 40px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.error-message {
+  font-family: 'Roboto';
+  color: #ff0b37;
+  margin-top: 4px;
+  font-size: 13px;
+}
